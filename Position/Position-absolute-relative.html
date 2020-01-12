@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica";
+        font-size: 28px;
+        text-shadow: -2px -1px rgba(0, 0, 0, 0.2);
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: #292929;
+      }
+      .login {
+        position: relative;
+        right: -10px;
+        width: 200px;
+        height: 160px;
+        background: linear-gradient(45deg, #ffc107, #ff0000);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10%;
+        transition: 0.5s;
+      }
+      .login:hover {
+        box-shadow: 0 0 40px rgba(247, 203, 4, 0.808);
+        transform: rotateZ(-5deg) translateX(-10px);
+        transition: 0.5s;
+      }
+
+      .signin {
+        position: relative;
+        left: -10px;
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(45deg, #89ff00, #00bcd4);
+        border-radius: 10%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+      }
+      .signin:hover {
+        box-shadow: 0 0 40px rgba(4, 247, 44, 0.521);
+        transform: rotateZ(5deg) translateX(-10px);
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">Login</div>
+      <div class="signin">Sign-in</div>
+    </div>
+  </body>
+</html>

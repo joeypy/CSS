@@ -1,0 +1,31 @@
+.align-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-stretch{
+    align-items: stretch;
+}
+
+.align-baseline{
+    align-items: baseline;
+}
+
+.align-baseline div:nth-child(2){
+    font-size: 24px;
+}
+
+.align-baseline div:nth-child(3){
+    font-size: 14px;
+}
+
+.align-baseline div:nth-child(4){
+    font-size: 30px;
+}
